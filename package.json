@@ -1,0 +1,24 @@
+{
+  "name": "@yannickherzog/css-utility-framework",
+  "version": "0.1.0",
+  "description": "CSS Utility Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siryan2/css-utility-framework.git"
+  },
+  "keywords": [
+    "css",
+    "utility",
+    "framework"
+  ],
+  "author": "Yannick Herzog",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siryan2/css-utility-framework/issues"
+  },
+  "homepage": "https://github.com/siryan2/css-utility-framework#readme"
+}

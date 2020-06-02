@@ -1,0 +1,31 @@
+/**
+ * @description: Width utilities
+ * @project: Utility Framework
+ * @author: Yannick Herzog
+ * @modified: 2019-03-19
+ */
+@for $i from 10 through 100 {
+  .w-#{$i} {
+    width: 1% * $i;
+
+    &--sm {
+      @media screen and (max-width: $screen-md) {
+        width: 1% * $i;
+      }
+    }
+
+    &--md {
+      @media screen and (min-width: $screen-md) {
+        width: 1% * $i;
+      }
+    }
+
+    &--lg {
+      @media screen and (min-width: $screen-lg) {
+        width: 1% * $i;
+      }
+    }
+  }
+
+  $i: $i+10;
+}
