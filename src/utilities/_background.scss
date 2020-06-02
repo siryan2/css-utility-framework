@@ -2,7 +2,7 @@
  * @description: Background utilities
  * @project: Utility Framework
  * @author: Yannick Herzog
- * @modified: 2019-03-19
+ * @modified: 2020-06-02
  */
 .bg-color-white {
   background-color: #ffffff;
@@ -22,4 +22,16 @@
 
 .bg-color-light-brand {
   background-color: transparentize($c-brand, 0.8) !important;
+}
+
+.bg-color-brand {
+  background-color: $c-brand !important;
+}
+
+.bg-color-brand-dark {
+  background-color: $c-brand-dark !important;
+}
+
+.bg-color-success {
+  background-color: $c-success !important;
 }
